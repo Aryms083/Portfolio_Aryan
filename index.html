@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Maheshwari | Full Stack Engineer & ML Enthusiast</title>
+  <meta name="description"
+    content="Portfolio of Aryan Maheshwari — Computer Science undergraduate specializing in Full Stack Engineering, Machine Learning, and AI-powered solutions." />
+  <meta name="keywords"
+    content="Aryan Maheshwari, Portfolio, Full Stack, Machine Learning, AI, Computer Vision, Developer" />
+  <meta name="author" content="Aryan Maheshwari" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aryan Maheshwari | Full Stack Engineer & ML Enthusiast" />
+  <meta property="og:description"
+    content="Results-driven CS undergraduate building scalable web apps and AI-powered solutions." />
+  <meta property="og:type" content="website" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo"><i class="fas fa-code"></i> Aryan.</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a href="Aryan_Maheshwari_Resume.pdf" target="_blank" class="nav-resume-btn">Resume</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ===== FIXED SIDE ELEMENTS ===== -->
+  <div class="hero-socials">
+    <a href="https://github.com/Aryms083" target="_blank" rel="noopener" aria-label="GitHub"><i
+        class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/aryan-maheshwari-145442246/" target="_blank" rel="noopener"
+      aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="mailto:aryms083@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+  </div>
+  <div class="hero-email">
+    <a href="mailto:aryms083@gmail.com">aryms083@gmail.com</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="container hero-content">
+      <p class="hero-greeting">Hey there, welcome to my corner of the internet</p>
+      <h1 class="hero-name">Aryan Maheshwari.</h1>
+      <h2 class="hero-tagline">
+        I build <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-description">
+        I'm a CS undergrad who genuinely loves writing code — whether that's putting together a
+        <strong>full stack web app</strong> or training a <strong>machine learning model</strong>
+        to do something cool. I like building things that actually work and solve real problems.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">
+          <i class="fas fa-arrow-down"></i> View My Work
+        </a>
+        <a href="Aryan_Maheshwari_Resume.pdf" target="_blank" class="btn-secondary">
+          <i class="fas fa-file-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-user"></i></span>
+        <span class="section-number">01.</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Hey, I'm <span class="highlight">Aryan</span> — a Computer Science student at
+            <span class="highlight">Rajkiya Engineering College, Kannauj</span> (under AKTU).
+            I got hooked on coding a few years back, and one thing led to another — now I
+            spend most of my time building web apps and tinkering with ML models.
+          </p>
+          <p>
+            I've been lucky enough to explore a bunch of different areas:
+            <span class="highlight">full stack development</span>,
+            <span class="highlight">machine learning</span>, <span class="highlight">computer vision</span>,
+            and even <span class="highlight">cybersecurity</span>. Last summer I got to work at a
+            <span class="highlight">Ministry of Defence facility</span> building monitoring systems.
+          </p>
+          <p>
+            What gets me excited? Stuff like hooking up face recognition to an attendance system,
+            making an AI describe images out loud, or wiring up a dashboard that tracks network
+            switches in real time. I just like building things that do something useful.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="12">0</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image reveal">
+          <div class="about-image-wrapper">
+            <img src="images/Aryan.jpeg" alt="Aryan Maheshwari" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DECORATIVE DIVIDER ===== -->
+  <div class="section-divider">
+    <div class="divider-pattern"></div>
+  </div>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-microchip"></i></span>
+        <span class="section-number">02.</span>
+        <h2 class="section-title">Technical Arsenal</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-terminal"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">PHP</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-robot"></i></div>
+          <h3>ML & AI Frameworks</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">YOLO</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Developer Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Google Colab</span>
+            <span class="skill-tag">Microsoft Azure</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-atom"></i></div>
+          <h3>Core Subjects</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Operating Systems</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Computer Networks</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">Algorithms</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DECORATIVE DIVIDER 2 ===== -->
+  <div class="section-divider section-divider-alt">
+    <div class="divider-pattern"></div>
+  </div>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-briefcase"></i></span>
+        <span class="section-number">03.</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="experience-timeline">
+        <!-- AVNL -->
+        <div class="exp-item reveal">
+          <div class="exp-date">July 2025</div>
+          <div class="exp-title">Internship Trainee</div>
+          <div class="exp-company">AVNL – Vehicle Factory Jabalpur (Ministry of Defence)</div>
+          <ul class="exp-description">
+            <li>Built a <strong>Switch Monitoring and Admin Panel</strong> from scratch for managing defence
+              network infrastructure</li>
+            <li>Added real-time search, live filtering, and pagination so operators could find what they need quickly
+            </li>
+            <li>Got the whole thing running on <strong>Maya OS</strong> — India's own Linux-based Defence
+              OS — with proper authentication baked in</li>
+            <li>Kept the code modular and secure, because when it's defence infra, you don't cut corners</li>
+          </ul>
+        </div>
+
+        <!-- Oasis Infobyte -->
+        <div class="exp-item reveal">
+          <div class="exp-date">May 2025 – Jun 2025</div>
+          <div class="exp-title">Data Science Intern</div>
+          <div class="exp-company">Oasis Infobyte (Virtual)</div>
+          <ul class="exp-description">
+            <li>Cleaned messy datasets, ran exploratory analysis, and trained ML models end to end</li>
+            <li>Shipped three projects: <strong>Sales Prediction</strong>, <strong>IRIS Classification</strong>,
+              and <strong>Unemployment Analysis</strong>
+            </li>
+            <li>Got the <strong>Star Performer</strong> tag — felt great to have the work recognized</li>
+          </ul>
+        </div>
+
+        <!-- Edunet Foundation -->
+        <div class="exp-item reveal">
+          <div class="exp-date">May 2025 – Jun 2025</div>
+          <div class="exp-title">Cybersecurity Intern</div>
+          <div class="exp-company">Edunet Foundation (IBM SkillsBuild)</div>
+          <ul class="exp-description">
+            <li>Went through a proper training pipeline on cybersecurity fundamentals</li>
+            <li>Got hands-on with threat detection, network security, and ethical hacking techniques</li>
+            <li>Worked with encryption tools, ran vulnerability assessments, and analyzed malware samples</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-flask"></i></span>
+        <span class="section-number">04.</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-icon"><i class="fas fa-eye"></i></div>
+          <h3>Image Caption Generator with Voice Output</h3>
+          <p>A deep learning pipeline that generates captions for images using CNN + Transformer
+            architectures, with text-to-speech added for accessibility.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>PyTorch</span>
+            <span>gTTS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Aryms083" target="_blank" rel="noopener" title="GitHub"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-icon"><i class="fas fa-fingerprint"></i></div>
+          <h3>Student Attendance System (Face Recognition)</h3>
+          <p>A face-recognition-based attendance system using OpenCV and Firebase.
+            Reduced manual effort by 80%.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>Firebase</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Aryms083" target="_blank" rel="noopener" title="GitHub"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+          <h3>Ludo Game (Python)</h3>
+          <p>A digital version of the classic Ludo board game built in Python with
+            multiplayer functionality.</p>
+          <div class="project-tech">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Aryms083" target="_blank" rel="noopener" title="GitHub"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-certificate"></i></span>
+        <span class="section-number">05.</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Data Analytics with Python</h4>
+            <p>NPTEL – IIT Roorkee</p>
+            <span class="cert-badge">Silver</span>
+            <a href="CERTIFICATES/Data Analytics with Python.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Design & Analysis of Algorithms</h4>
+            <p>NPTEL – IIT Madras</p>
+            <a href="CERTIFICATES/Design and Analysis of Algorithms.pdf" target="_blank" class="cert-view">View
+              Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Introduction to Programming in C</h4>
+            <p>NPTEL – IIT Kanpur</p>
+            <a href="CERTIFICATES/Introduction To Programming In C.jpeg" target="_blank" class="cert-view">View
+              Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Psychology of Learning</h4>
+            <p>NPTEL – IIT Kharagpur</p>
+            <span class="cert-badge">Silver</span>
+            <a href="CERTIFICATES/Psychology of Learning.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Emotional Intelligence</h4>
+            <p>NPTEL – IIT Kharagpur</p>
+            <span class="cert-badge">Silver</span>
+            <a href="CERTIFICATES/Emotional Intelligence.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-medal"></i></div>
+          <div class="cert-info">
+            <h4>Cloud Computing</h4>
+            <p>NPTEL – IIT Kharagpur</p>
+            <a href="CERTIFICATES/Cloud Computing (1).pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-eye"></i></div>
+          <div class="cert-info">
+            <h4>Computer Vision 101</h4>
+            <p>Infosys Springboard</p>
+            <a href="CERTIFICATES/Computer vision 101.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-brain"></i></div>
+          <div class="cert-info">
+            <h4>Introduction to Deep Learning</h4>
+            <p>Infosys Springboard</p>
+            <a href="CERTIFICATES/introduction to deep learning.pdf" target="_blank" class="cert-view">View Certificate
+              <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div class="cert-info">
+            <h4>Introduction to AI</h4>
+            <p>Infosys Springboard</p>
+            <a href="CERTIFICATES/introduction to AI.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-gamepad"></i></div>
+          <div class="cert-info">
+            <h4>Build Ludo Game</h4>
+            <p>Certification</p>
+            <a href="CERTIFICATES/Build ludo game certificate.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-info">
+            <h4>Cybersecurity Essentials</h4>
+            <p>IBM SkillsBuild · Edunet Foundation</p>
+            <a href="iNTERNSHIP/Edunet Cybersecurity.pdf" target="_blank" class="cert-view">View Certificate <i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-star"></i></div>
+          <div class="cert-info">
+            <h4>Data Science Intern — Star Performer</h4>
+            <p>Oasis Infobyte</p>
+            <span class="cert-badge">⭐ Star Performer</span>
+            <a href="iNTERNSHIP/Aryan Maheshwari Certificate oasis.pdf" target="_blank" class="cert-view">View
+              Certificate <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEADERSHIP & ACTIVITIES ===== -->
+  <section id="achievements" class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="iron-icon"><i class="fas fa-users"></i></span>
+        <span class="section-number">06.</span>
+        <h2 class="section-title">Leadership & Activities</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🏅</div>
+          <h4>NSS Coordinator</h4>
+          <p>Organized and led social initiatives at college — it helped me grow as a leader and learn how to manage a
+            team.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🎤</div>
+          <h4>Debate Competition</h4>
+          <p>Ranked among top performers at the IEI Debate Competition — I enjoy putting my thoughts into structured
+            arguments.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🏓</div>
+          <h4>Sports</h4>
+          <p>I've had a good winning streak in Table Tennis — it's one of my favorite things to do outside of coding.
+          </p>
+        </div>
+      </div>
+
+      <!-- ===== STRENGTHS ===== -->
+      <div class="section-header reveal" style="margin-top: 60px;">
+        <span class="iron-icon"><i class="fas fa-bolt"></i></span>
+        <span class="section-number">06b.</span>
+        <h2 class="section-title">Strengths</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🤝</div>
+          <h4>Teamwork</h4>
+          <p>I've worked on teams in college, during internships, and on technical projects — collaboration just comes
+            naturally to me.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">💬</div>
+          <h4>Communication</h4>
+          <p>I like explaining technical stuff in a way that anyone can follow, even if they're not from a tech
+            background.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🧩</div>
+          <h4>Problem Solving</h4>
+          <p>I'm someone who likes digging into real-world problems and figuring out practical solutions — that's what
+            keeps me going.</p>
+        </div>
+      </div>
+
+      <!-- ===== INTERESTS ===== -->
+      <div class="section-header reveal" style="margin-top: 60px;">
+        <span class="iron-icon"><i class="fas fa-heart"></i></span>
+        <span class="section-number">06c.</span>
+        <h2 class="section-title">Interests</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">💻</div>
+          <h4>Coding Challenges</h4>
+          <p>I genuinely enjoy solving problems on coding platforms — it's how I sharpen my thinking.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">♟️</div>
+          <h4>Chess</h4>
+          <p>Love sitting down for a game of chess — there's something satisfying about thinking a few moves ahead.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🏓</div>
+          <h4>Table Tennis</h4>
+          <p>My favorite way to take a break — fast rallies and quick reflexes make it a lot of fun.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-container reveal">
+        <p class="section-overline">07. What's Next?</p>
+        <h2>Let's Talk</h2>
+        <p>
+          I'm always up for a good conversation — whether it's about a project idea,
+          a job opportunity, or just tech stuff in general. Drop me a line and I'll
+          get back to you as soon as I can.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:aryms083@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i> aryms083@gmail.com
+          </a>
+          <a href="tel:+918791286857" class="contact-link">
+            <i class="fas fa-phone"></i> +91 8791286857
+          </a>
+          <a href="https://github.com/Aryms083" target="_blank" rel="noopener" class="contact-link">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/aryan-maheshwari-145442246/" target="_blank" rel="noopener"
+            class="contact-link">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="hud-divider">
+      <span class="hud-line"></span>
+      <span class="hud-diamond"></span>
+      <span class="hud-line"></span>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Aryms083" target="_blank" rel="noopener" aria-label="GitHub"><i
+          class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/aryan-maheshwari-145442246/" target="_blank" rel="noopener"
+        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:aryms083@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>Designed & Built by <a href="#">Aryan Maheshwari</a> &copy; 2026</p>
+    <p class="stark-footer">Crafted with passion & code</p>
+  </footer>
+
+  <!-- ===== ARYMS CHATBOT ===== -->
+  <div class="jarvis-bot" id="jarvisBot">
+    <button class="jarvis-toggle" id="jarvisToggle" aria-label="Open ARYMS Assistant">
+      <span class="jarvis-toggle-icon"><i class="fas fa-comment-dots"></i></span>
+      <span class="jarvis-toggle-pulse"></span>
+    </button>
+    <div class="jarvis-window" id="jarvisWindow">
+      <div class="jarvis-header">
+        <div class="jarvis-header-left">
+          <span class="jarvis-status-dot"></span>
+          <span class="jarvis-header-title">ARYMS</span>
+        </div>
+        <span class="jarvis-header-sub">Aryan's Assistant</span>
+        <button class="jarvis-close" id="jarvisClose"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="jarvis-messages" id="jarvisMessages"></div>
+      <div class="jarvis-quick-replies" id="jarvisQuickReplies">
+        <button class="jarvis-quick-btn" data-query="who">Who's Aryan?</button>
+        <button class="jarvis-quick-btn" data-query="skills">Skills</button>
+        <button class="jarvis-quick-btn" data-query="projects">Projects</button>
+        <button class="jarvis-quick-btn" data-query="experience">Experience</button>
+        <button class="jarvis-quick-btn" data-query="achievements">Achievements</button>
+        <button class="jarvis-quick-btn" data-query="education">Education</button>
+        <button class="jarvis-quick-btn" data-query="contact">Contact</button>
+        <button class="jarvis-quick-btn" data-query="resume">Resume</button>
+        <button class="jarvis-quick-btn" data-query="why_hire">Why Hire?</button>
+        <button class="jarvis-quick-btn" data-query="fun">Fun Facts</button>
+      </div>
+      <div class="jarvis-input-area">
+        <input type="text" class="jarvis-input" id="jarvisInput" placeholder="Ask me anything..." autocomplete="off" />
+        <button class="jarvis-send" id="jarvisSend"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+
+</html>

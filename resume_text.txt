@@ -1,0 +1,81 @@
+Aryan MaheshwariUttar Pradesh, India
+♂¶obile-alt+91 8791286857
+/envel⌢pearyms083@gmail.com
+/linkedin-inaryan-maheshwari-145442246
+/githubAryms083
+Professional Summary
+Results-driven Computer Science undergraduate specializing in Full Stack Engineering, and Machine
+Learning . Proficient in building scalable web applications, secure backend systems, and AI-powered
+solutions. Experienced in Python, Java, and JavaScript with strong knowledge of databases and cloud
+tools. Hands-on project and internship experience across Web Development, Cybersecurity, Image
+Processing, and AI . Recognized for leadership, problem-solving, and delivering efficient technical solutions.
+Education
+2022 – 2026 B.Tech, Computer Science and Engineering ,Rajkiya Engineering College Kannauj ,
+Uttar Pradesh, India
+2020 – 2021 Senior Secondary (XII), A+ Grade ,CBSE Board
+2018 – 2019 Secondary (X), A+ Grade ,CBSE Board
+Technical Skills
+Programming Python, Java, JavaScript, HTML, CSS, PHP
+Frameworks TensorFlow, PyTorch, OpenCV, YOLO
+Databases MongoDB, Firebase, MySQL
+Tools Git, GitHub, Jupyter Notebook, Google Colab, Microsoft Azure
+Core Subjects Operating Systems, DBMS, Computer Networks, DSA, Algorithms
+Experience
+July 2025 Internship Trainee ,AVNL – Vehicle Factory Jabalpur (Ministry of Defence) , Madhya
+Pradesh, India
+Worked in the Information Technology Center (ITC) as part of vocational training. Key contribu-
+tions:
+○Designed and deployed a Switch Monitoring and Admin Panel System for secure defence
+infrastructure.
+○Implemented real-time dynamic search, live filtering, and pagination for efficient data handling.
+○Integrated secure authentication and optimized system for Maya OS (Linux-based Defence
+OS).
+○Ensured scalability, modularity, and security following industry best practices.
+May 2025 – Jun
+2025Data Science Intern ,Oasis Infobyte (Virtual) , Remote
+○Conducted data preprocessing, EDA, and ML model building.
+○Worked on projects including Sales Prediction, IRIS Classification, Unemployment
+Analysis .
+○Recognized as Star Performer for project outcomes.
+May 2025 – Jun
+2025Cybersecurity Intern ,Edunet Foundation (IBM SkillsBuild) , Remote
+○Completed structured training on Cybersecurity fundamentals.
+○Gained practical skills in threat detection, network security, and ethical hacking.
+○Hands-on with encryption, vulnerability assessment, and malware analysis.
+Projects
+1/2
+July 2025 Switch Monitoring System (Full Stack) ,Vehicle Factory Jabalpur (VFJ)
+Developed a web-based monitoring and admin system for defence networks. Integrated authentica-
+tion, real-time data handling, and secure deployment on Maya OS. Tech Stack: PHP, MySQL,
+JavaScript, Linux (Maya OS) .
+2024 – 2025 Image Caption Generator with Voice Output
+Built a deep learning pipeline to generate image captions using CNN + Transformer architectures.
+Added text-to-speech for accessibility. Tech Stack: Python, TensorFlow, PyTorch, gTTS .
+2024 Student Attendance System (Face Recognition)
+Created a face-recognition-based attendance system with OpenCV + Firebase . Reduced
+manual effort by 80%.
+2023 Ludo Game (Python)
+Developed a digital version of Ludo board game in Python with multiplayer functionality.
+Certifications
+NPTEL Data Analytics with Python (Silver) – IIT Roorkee;
+Design and Analysis of Algorithms – IIT Madras;
+Introduction to Programming in C – IIT Kanpur;
+Psychology of Learning (Silver) – IIT Kharagpur;
+Emotional Intelligence (Silver) – IIT Kharagpur;
+Cloud Computing – IIT Kharagpur;
+Infosys
+SpringboardComputer Vision, Deep Learning, Artificial Intelligence
+IBM SkillsBuild Cybersecurity Essentials
+Achievements
+NSS
+CoordinatorOrganized and led social initiatives at college, enhancing leadership and team management.
+Debate
+CompetitionRanked among top performers at IEI Debate Competition.
+Sports Winning streak in Table Tennis.
+Strengths
+Teamwork Collaborated in academic, industrial, and technical teams delivering impactful projects.
+Communication Skilled at explaining technical concepts to non-technical audiences.
+Problem Solving Proactive learner and developer with proven track record in solving real-world challenges.
+Hobbies
+Coding Challenges, Chess, Table Tennis
+2/2
